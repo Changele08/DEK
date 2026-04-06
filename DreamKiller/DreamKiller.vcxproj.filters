@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source File\idrv%28driver interface%29">
+      <UniqueIdentifier>{f1622b01-2987-432c-bad9-79aaf6ccaffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third party">
+      <UniqueIdentifier>{0968c3fa-71f1-4664-b1c4-2f6d758f5281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third party\tinyaes">
+      <UniqueIdentifier>{47f4a97d-5eb1-433e-b1b5-604ade179e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ntos">
+      <UniqueIdentifier>{284d7ae0-e5c1-4bba-a110-9c4ceebd22bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minirtl">
+      <UniqueIdentifier>{2e7c4fa0-53b2-49b3-bfb0-4559d9846e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ldr">
+      <UniqueIdentifier>{c1eee15f-f32a-41be-8cde-45d7d9ce19e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde">
+      <UniqueIdentifier>{290824e0-bdea-48bc-9c4e-bb1ec3d5ba8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource File">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source File\DreamExKiller">
+      <UniqueIdentifier>{f7bc0d12-b105-409e-a8ef-55ce2d82f885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kduprov.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="pagewalk.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="sup.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="ntos\ntsup.c">
+      <Filter>ntos</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\cmdline.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\strtou64.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\strtoul.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\u64tohex.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\ultohex.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_filename.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcat.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmp.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmpi.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcpy.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strend.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strlen.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncmp.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncmpi.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncpy.c">
+      <Filter>minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="ldr\ldr.cpp">
+      <Filter>ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\alcpu.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\amd.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\asrdrv.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\dell.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\directio64.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\evga.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\intel.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\ipcdec.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\lenovo.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\mapmem.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\netease.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\phymem.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\rtcore.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\tpup.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\tpw.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\winio.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="idrv\winring0.cpp">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.c">
+      <Filter>hde</Filter>
+    </ClCompile>
+    <ClCompile Include="sym.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="ps.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\tinyaes\aes.c">
+      <Filter>third party\tinyaes</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="DreamKiller\KduProvider.cpp">
+      <Filter>Source File\DreamExKiller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kduplist.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="kduprov.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="pagewalk.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="sup.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos\ntsup.h">
+      <Filter>ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos\halamd64.h">
+      <Filter>ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos\ntalpc.h">
+      <Filter>ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos\ntbuilds.h">
+      <Filter>ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos\ntos.h">
+      <Filter>ntos</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\cmdline.h">
+      <Filter>minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\minirtl.h">
+      <Filter>minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\rtltypes.h">
+      <Filter>minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\_filename.h">
+      <Filter>minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="ldr\ldr.h">
+      <Filter>ldr</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\alcpu.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\amd.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\asrdrv.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\dell.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\directio64.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\evga.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\intel.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\ipcdec.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\ldrsc.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\lenovo.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\mapmem.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\netease.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\phymem.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\rtcore.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\tpup.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\tpw.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\winio.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="idrv\winring0.h">
+      <Filter>Source File\idrv%28driver interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="kdubase.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="sym.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="ipcsvc.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="ps.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="victim.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\tinyaes\aes.h">
+      <Filter>third party\tinyaes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="compress.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="tanikaze.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="DreamKiller\KduProvider.h">
+      <Filter>Source File\DreamExKiller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource File</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
