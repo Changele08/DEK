@@ -133,4 +133,4 @@ DEK附带了完整的源代码。若要从源代码构建，您需要安装Micro
 
 KDU,https://github.com/hfiref0x/KDU
 
-缘梦DreamEx's Video.(在项目中)
+缘梦DreamEx's Video.
