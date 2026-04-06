@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue)](https://github.com/yourname/DEK)
 [![Build](https://img.shields.io/badge/Build-VS2022-brightgreen)](https://github.com/yourname/DEK)
-[![Stars](https://img.shields.io/github/stars/yourname/DEK?style=social)](https://github.com/yourname/DEK)
+[![Stars](https://img.shields.io/github/stars/Changele08/DEK?style=social)](https://github.com/Changele08/DEK)
 
 <div align="right">
   <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
