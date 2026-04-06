@@ -48,8 +48,6 @@ Example:
 + dek -cm
 + dek -ps pid -ob -cm -kill pid
 
-Windows 11 24H2 运行结果*
-
 # 支持的 provider
 
 注意：若未指定 -prv 命令，则默认使用ID为34的提供程序。
