@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/yourname/DEK?style=social)](https://github.com/yourname/DEK)
 
 <div align="right">
-  <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+  <a href="README.md">English</a> | <a href="Readme_zh.md">简体中文</a>
 </div>
 
 ## DreamEx_Killer
@@ -129,6 +129,8 @@ After reverse engineering and learning from KDU project, I rewrite the Memory r/
 
 FINALLY, it's time for naming. I need a striking name (even if it feels a bit of "..chuunibyou"). "DreamEx_Killer" suddenly popped into my mind.So,
 That's it.
+
+(Sorry for wrong name of proj dir...)
 
 # Reference
 KDU,https://github.com/hfiref0x/KDU
