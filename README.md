@@ -116,21 +116,6 @@ Also Similar to KDU:
 Using this program might crash your computer with a BSOD. Compiled binary and source code are provided AS-IS in the hope they will be useful BUT WITHOUT WARRANTY OF ANY KIND. Since DEK relies on completely bugged, vulnerable drivers, it is highly recommended to use it on virtual machines only.
 
 
-### Fun stories -- Why named "DreamEx_Killer"
-The idea coming from an Uploder on Bilibili named "缘梦DreamEx".
-
-He uploaded a video descripted how to use vulnerable driver(WinIO) to r/w Phy/Vir memory and remove ob/cm callback & PPL to terminate an AV process(360, huorong etc.) and set hijack the exe to prevent them from restarting.
-
-Although his account was banned later, I downloaded example exe(which is only packed by UPX, and I can disasm it easily) in comment section :P.
-
-After reverse engineering and learning from KDU project, I rewrite the Memory r/w interface(expand them from single Vulnerable Driver(WinIO) to several VD(see the provider list)), and complete the code which didn't display in the video.
-
-FINALLY, it's time for naming. I need a striking name (even if it feels a bit of "..chuunibyou"). "DreamEx_Killer" suddenly popped into my mind.So,
-That's it.
-
-(Sorry for wrong name of proj dir...)
-
 # Reference
 KDU,https://github.com/hfiref0x/KDU
 
-缘梦DreamEx's Video
